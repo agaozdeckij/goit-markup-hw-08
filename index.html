@@ -12,9 +12,15 @@
   <body class="page">
     <!--Шапка сайта-->
     <header>
-      <div class="container main-nav">
-      <nav class="main-nav">
+      <div class="container navigation">
         <a href="./index.html" class="logo-header"><span class="web-header">Web</span>Studio</a>
+        <button type="button" class="header__mobile-menu-button" aria-expanded="false" data-menu-button>
+          <svg class="header__mobile-menu-icon" width="24" height="24" aria-label="Переключатель мобильного меню">
+            <use class="icon-menu" href="./images/sprite.svg#icon-menu_24px"></use>
+            <use class="icon-cross" href="./images/sprite.svg#icon-Vector"></use>
+          </svg>
+        </button>
+      <nav class="main-nav">
         <ul class="site-nav list">
           <li class="item "><a href="./index.html" class="link current active-page">Студия</a></li>
           <li class="item"><a href="./portfolio.html" class="link">Портфолио</a></li>
@@ -87,7 +93,7 @@
     </section>
     <!--Чем мы занимаемся-->
     <section>
-    <div class="container">
+    <div class="container examples-container">
       <h2 class="section-title">Чем мы занимаемся</h2>
       <ul class="examples list">
         <li class="examples__item">
@@ -465,5 +471,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>

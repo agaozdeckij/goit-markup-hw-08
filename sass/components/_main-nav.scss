@@ -1,11 +1,36 @@
+.navigation {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: center;
+  }
+
+  @media screen and (max-width: 767px) {
+    display: flex;
+    justify-content: space-between;
+  }
+  @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
 .main-nav {
-  display: flex;
-  align-items: center;
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
 }
 /* site nav */
 .site-nav {
-  display: flex;
-  margin-left: 93px;
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    margin-left: 93px;
+  }
 
   .item:not(:last-child) {
     margin-right: 50px;

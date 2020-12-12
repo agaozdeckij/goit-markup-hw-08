@@ -1,11 +1,17 @@
 .examples {
-  display: flex;
-  justify-content: space-between;
-  align-items: stretch;
-  margin-top: 0;
-  margin-bottom: 94px;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-top: 0;
+    margin-bottom: 94px;
+  }
 }
-
+.examples-container {
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+}
 .examples__item {
   position: relative;
   margin-left: 30px;

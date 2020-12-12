@@ -1,13 +1,19 @@
 .form-container {
-  margin-left: 95px;
+  @media screen and (min-width: 1200px) {
+    margin-left: 95px;
+  }
 }
 .footer-form {
-  display: flex;
-  align-items: flex-end;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: flex-end;
+  }
 }
 .footer-form__subs {
-  display: flex;
-  flex-direction: column;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .footer-form__title {
@@ -58,6 +64,9 @@
 }
 
 .form-button__icon {
-  margin-left: 10px;
   fill: var(--primary-white-color);
+
+  @media screen and (min-width: 1200px) {
+    margin-left: 10px;
+  }
 }

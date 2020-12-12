@@ -1,6 +1,10 @@
 .join {
-  margin-left: 70px;
-  padding-top: 14px;
+  @media screen and (max-width: 767px) {
+  }
+  @media screen and (min-width: 1200px) {
+    margin-left: 70px;
+    padding-top: 14px;
+  }
 }
 .join-title {
   margin: 0;

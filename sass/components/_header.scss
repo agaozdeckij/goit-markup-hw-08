@@ -1,3 +1,31 @@
 header {
   border-bottom: 1px solid #ececec;
 }
+.header__mobile-menu-button {
+  display: block;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+.header__mobile-menu-button .icon-cross {
+  display: none;
+}
+.header__mobile-menu-button.is-open .icon-cross {
+  display: block;
+}
+.header__mobile-menu-button.is-open .icon-menu {
+  display: none;
+}
+
+.header__mobile-menu-icon {
+  fill: var(--title-text-color);
+
+  .header__mobile-menu-button:hover &,
+  .header__mobile-menu-button:focus & {
+    fill: var(--accent-text-color);
+  }
+}
