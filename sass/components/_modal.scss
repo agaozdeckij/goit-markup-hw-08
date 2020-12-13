@@ -1,6 +1,5 @@
 .backdrop {
   @media screen and (max-width: 767px) {
-    width: 1200px;
     padding-top: 93px;
     padding-left: 15px;
     padding-right: 15px;
@@ -24,10 +23,6 @@
   &.is-hidden {
     opacity: 0;
     pointer-events: none;
-
-    .modal {
-      transform: translate(-50%, -50%) scale(0.9);
-    }
   }
 }
 
