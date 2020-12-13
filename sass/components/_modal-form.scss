@@ -95,7 +95,7 @@
   }
 }
 .lable-check {
-  display: inline-block;
+  display: block;
   display: flex;
   align-items: center;
 
@@ -111,6 +111,14 @@
 
   letter-spacing: 0.03em;
   cursor: pointer;
+  @media screen and(max-width:767px) {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+  }
 }
 .icon-check {
   display: inline-block;

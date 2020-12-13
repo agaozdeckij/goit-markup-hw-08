@@ -1,6 +1,11 @@
+.adress-footer {
+  @media screen and (max-width: 767px) {
+    margin-bottom: 60px;
+  }
+}
+
 .address {
   padding-bottom: 9px;
-
   color: var(--primary-white-color);
   font-family: Roboto;
   font-style: normal;
