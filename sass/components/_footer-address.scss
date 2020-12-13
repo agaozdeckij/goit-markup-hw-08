@@ -1,5 +1,7 @@
 .adress-footer {
-  @media screen and (max-width: 767px) {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin-left: 76px;
+    margin-right: 165px;
   }
 }
 

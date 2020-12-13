@@ -1,8 +1,4 @@
 .form-container {
-  @media screen and (min-width: 768px) {
-    display: flex;
-    flex-wrap: wrap;
-  }
   @media screen and (max-width: 767px) {
     padding-bottom: 60px;
   }
@@ -12,7 +8,6 @@
 }
 .footer-form {
   @media screen and (min-width: 768px) {
-    display: block;
   }
   @media screen and (min-width: 1200px) {
     display: flex;
@@ -20,6 +15,9 @@
   }
 }
 .footer-form__subs {
+  @media screen and (min-width: 768px) {
+    display: block;
+  }
   @media screen and (min-width: 1200px) {
     display: flex;
     flex-direction: column;
@@ -54,11 +52,16 @@
   background-color: transparent;
 }
 .footer-form__button {
+  @media screen and (min-width: 768px) {
+  }
   @media screen and (max-width: 767px) {
     margin-left: auto;
     margin-right: auto;
   }
-  margin-left: 12px;
+  @media screen and (min-width: 1200px) {
+    margin-left: 12px;
+  }
+
   padding-top: 10px;
   padding-right: 28px;
   padding-bottom: 10px;

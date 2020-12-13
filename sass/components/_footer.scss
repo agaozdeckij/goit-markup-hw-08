@@ -1,16 +1,19 @@
 .footer {
   background-color: var(--bgc-hero-footer);
 }
+
 .footer-info {
   @media screen and (max-width: 768px) {
     text-align: center;
   }
   @media screen and (min-width: 768px) {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
   }
   @media screen and (min-width: 1200px) {
     display: flex;
+    flex-wrap: nowrap;
     align-items: baseline;
   }
 }
