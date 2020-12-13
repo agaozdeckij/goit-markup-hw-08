@@ -154,6 +154,7 @@ header {
 @media screen and (max-width: 767px) {
   .header__mobile-menu {
     display: none;
+    z-index: 1;
     position: absolute;
     top: 100%;
     left: 0;
@@ -1054,12 +1055,6 @@ header {
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
             align-items: baseline;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .adress-footer {
-    margin-bottom: 60px;
   }
 }
 
