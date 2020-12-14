@@ -18,7 +18,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(/images/fon-copy_mobile.jpg);
+      url(../images/fon-copy_mobile.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -29,7 +29,7 @@
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url(/images/fon-copy_mobile@2x.jpg);
+        url(../images/fon-copy_mobile@2x.jpg);
     }
 
     @media screen and (min-width: 481px) {
@@ -38,7 +38,7 @@
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url(/images/fon-copy_tablet.jpg);
+        url(../images/fon-copy_tablet.jpg);
       background-size: cover;
 
       @media (min-resolution: 2dppx) {
@@ -47,7 +47,7 @@
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)
           ),
-          url(/images/fon-copy_tablet@2x.jpg);
+          url(../images/fon-copy_tablet@2x.jpg);
 
         background-size: cover;
       }
@@ -58,7 +58,7 @@
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url(/images/fon-copy.jpg);
+        url(../images/fon-copy.jpg);
 
       background-size: cover;
 
@@ -68,7 +68,7 @@
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)
           ),
-          url(/images/fon-copy@2x.jpg);
+          url(../images/fon-copy@2x.jpg);
 
         background-size: cover;
       }
