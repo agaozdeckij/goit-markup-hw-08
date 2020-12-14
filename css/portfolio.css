@@ -564,6 +564,10 @@ header {
   }
 }
 
+.work-examples__title {
+  visibility: hidden;
+}
+
 .work-examples {
   display: -webkit-box;
   display: -ms-flexbox;
