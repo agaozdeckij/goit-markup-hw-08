@@ -565,7 +565,7 @@ header {
 }
 
 .work-examples__title {
-  visibility: hidden;
+  display: none;
 }
 
 .work-examples {
